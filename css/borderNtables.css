@@ -1,0 +1,44 @@
+table, th, td {
+    border-style: solid;
+    border-collapse: collapse;
+    width: fit-content;
+    text-align: center;
+}
+
+img {
+    max-width: fit-content;
+    max-height: fit-content;
+    object-fit: contain;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="radio"] {
+    width: auto;
+}
